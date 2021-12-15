@@ -2,3 +2,5 @@ __pycache__/
 venv/
 .env
 google-chrome-stable_current_amd64.deb
+PyWhatKit_DB.txt
+
