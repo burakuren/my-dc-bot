@@ -5,7 +5,7 @@ import pywhatkit
 import datetime
 
 load_dotenv()
-phone_num = os.getenv("Diyar_Phone_Num")
+phone_num = os.getenv("Phone_Num")
 
 now = datetime.datetime.now()
 
@@ -37,4 +37,3 @@ class msg:
     def msg_hi(self):
 
         pywhatkit.sendwhatmsg(phone_num, 'Hi!',s_hour,s_min,8,True,5)
-

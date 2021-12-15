@@ -16,6 +16,7 @@ bot = commands.Bot(command_prefix='$')
 async def dolar_v(value):
 
     await value.send(dolar)
+    print("Dollar-TL Sent")
 
 
 @bot.command(name="hi")
